@@ -343,13 +343,16 @@ button[class=close] {
   max-height: 1000px;
 }
 
-//Special Background for team section
-#section-about,
-#section-services {
-  background-size: contain;
-  background-image: url(/assets/kildoo-bkgd_header.jpg);
+#section-about {
+  background-size: initial;
+  background-image: url(/assets/green-mountains.png);
   background-repeat: no-repeat;
   background-position-y: 100%;
+}
+
+#section-specials {
+  background: #E0E4D3; /* For browsers that do not support gradients */
+  background: linear-gradient(#E0E4D3, #718F11);
 }
 
 #section-services .owl-carousel .owl-nav [class*=owl-],

@@ -25,15 +25,8 @@ p {
 	margin-bottom: 0;
 }
 
-.font-serif {
-	font-family: 'Roboto Condensed', sans-serif;
-}
-
-.font-sans {
-	font-family: 'Roboto Condensed', sans-serif;
-}
-
 .font-italic {
+	font-family: 'Playfair Display', serif;
 	font-style: italic;
 }
 
@@ -176,10 +169,9 @@ h6 {
 a.btn,
 button.btn {
 	font-family: 'Roboto Condensed', sans-serif;
-	background-color: #B33E15;
+	background-color: #0FADC4;
+	border-radius: 0;
 	color: #FFF;
-	border: 2px solid white;
-	border-radius: 30px;
 	font-size: 18px;
 	padding-left: 80px;
 	padding-right: 80px;
