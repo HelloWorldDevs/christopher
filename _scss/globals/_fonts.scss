@@ -6,7 +6,7 @@
 
 
 
-body { font-family: 'Droid Serif', serif; }
+body { font-family: 'Roboto Condensed', sans-serif; }
 
 h1,
 h2,
@@ -16,7 +16,7 @@ h5,
 h6,
 #logo,
 #primary-menu ul li > a {
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	margin-bottom: 0;
 	line-height: 1.5;
 }
@@ -26,11 +26,11 @@ p {
 }
 
 .font-serif {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .font-sans {
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .font-italic {
@@ -175,7 +175,7 @@ h6 {
 
 a.btn,
 button.btn {
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	background-color: #B33E15;
 	color: #FFF;
 	border: 2px solid white;
@@ -259,13 +259,8 @@ p {
 	}
 }
 
-.font-larger {
-	font-style: 120%;
-}
-
 .area-byline {
 	font-size: 48px;
-	margin: 150px 0px;
 	@media screen and (max-width: $width-lg) {
 		font-size: 38px;
 	}
@@ -291,12 +286,4 @@ p {
 #logo img {
 	max-width: 250px;
 	padding: 10px;
-}
-
-#section-services p {
-	margin-bottom: 20px;
-}
-
-#section-services .services-modals p {
-	font-family: 'Bitter';
 }

@@ -719,24 +719,17 @@ html[xmlns] .slider-wrap {display: block;}
 -----------------------------------------------------------------*/
 
 #primary-menu > ul > li > a:hover {
-	color: #68605B;
 	text-decoration: underline;
 }
 
 #primary-menu > ul > li:nth-child(1) > a:hover {
-	color: #31A2BF;
+	color: #FF7A00;
 	text-decoration: underline;
 }
 
 
 #primary-menu > ul > li:nth-child(2) > a:hover {
-	color: #2e8b9c;
-	text-decoration: underline;
-}
-
-
-#primary-menu > ul > li:nth-child(3) > a:hover {
-	color: #6e949c;
+	color: #0FADC4;
 	text-decoration: underline;
 }
 
@@ -1146,7 +1139,6 @@ body.stretched #header.full-header .container {
 	display: block;
 	line-height: 22px;
 	padding: 39px 15px;
-	color: #444;
 	font-weight: bold;
 	font-size: 13px;
 	letter-spacing: 1px;
