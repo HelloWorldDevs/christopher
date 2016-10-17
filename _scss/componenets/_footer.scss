@@ -1,0 +1,61 @@
+//Overrides for Canvas
+#footer {
+  position: relative;
+  background-color: #14718A;
+  border-top: none;
+  & a:hover {
+    text-decoration: none;
+  }
+}
+
+.social-icon-wrapper {
+  float: right;
+  @media (max-width: $width-md) {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    display: inline-block;
+  }
+}
+
+a.si-facebook,
+a.si-twitter,
+a.si-youtube,
+a.si-google {
+  display: inline-block;
+}
+
+.icon-facebook,
+.icon-google,
+.icon-twitter,
+.icon-youtube {
+  color: white;
+  font-size: 25px;
+  width: 37px;
+  text-align: center;
+  @media (max-width: $width-sm) {
+    float: none;
+    margin-right: auto;
+  }
+}
+
+a.si-facebook {
+  margin-right: 20px;
+}
+
+a.si-twitter {
+  margin-right: 20px;
+}
+
+a.si-youtube {
+  margin-right: 20px;
+}
+
+a.si-google {
+  margin-right: 20px;
+}
+
+.margin-top-small {
+  margin-top: 10px;
+}

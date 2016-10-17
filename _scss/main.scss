@@ -1,0 +1,367 @@
+
+//=================================
+//      Canvas Dependencies
+//=================================
+
+@import "dependencies/animate.scss";
+@import "dependencies/bootstrap.scss";
+@import "dependencies/swiper.scss";
+@import "dependencies/font-icons.scss";
+@import "dependencies/dark.scss";
+@import "style.scss";
+@import "dependencies/responsive.scss";
+
+
+//=================================
+//           Globals
+//=================================
+
+@import "globals/_breakpoints.scss";
+@import "globals/_fonts.scss";
+@import "globals/_colors.scss";
+
+
+//=================================
+//           Core
+//=================================
+
+
+@import "componenets/_phone-slab.scss";
+@import "componenets/_owl-carousel.scss";
+@import "componenets/_services-modals.scss";
+@import "componenets/_location.scss";
+@import "componenets/_specials.scss";
+@import "componenets/_footer.scss";
+
+
+
+section {
+  background-size: cover;
+}
+#google-map5 {
+  height: 800px;
+  @media (max-width: $width-md) {
+    height: 300px;
+  }
+}
+
+.section-padding {
+  padding: 60px 0px;
+  @media (max-width: $width-md) {
+    padding: 30px 0px;
+  }
+}
+
+.footer-padding {
+  padding: 40px 0px;
+  @media (max-width: $width-md) {
+    padding: 20px 0px;
+  }
+}
+
+
+.margin-btm {
+  margin-bottom: 30px;
+}
+
+.margin-btm-half {
+  margin-bottom: 15px;
+}
+
+.margin-btm-no {
+  margin-bottom: 0px !important;
+}
+
+.margin-btm-2x {
+  margin-bottom: 60px;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+.margin-top-2x {
+  margin-top: 60px;
+}
+
+.margin-top-2p {
+  margin-top: 20%;
+}
+
+.margin-top-3p {
+  margin-top: 100px;
+}
+
+.margin-top-small {
+  margin-top: 10px;
+}
+
+.margin-top-md {
+  @media (max-width: $width-md) {
+    margin-top: 30px;
+  }
+}
+
+.padding-reg {
+  padding: 30px;
+}
+
+.padding-vert-half {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.padding-vert {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.padding-vert-2x {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.padding-hor {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.padding-btm {
+  padding-bottom: 30px;
+}
+
+.padding-btm-2x {
+  padding-bottom: 60px;
+}
+
+.padding-right {
+  padding-right: 45px;
+}
+
+.padding-left {
+  padding-left: 45px;
+}
+
+.line-height-no {
+  line-height: 1.0;
+}
+
+.center-md {
+  @media (max-width: $width-md) {
+    text-align: center;
+  }
+}
+
+.line-height-small {
+  line-height: 1.2;
+}
+
+#content .line-height-medium {
+  line-height: 2.0;
+}
+
+
+.bg-centered {
+  background-position: center;
+  @media (max-width: $width-md) {
+    background-position: left;
+  }
+}
+
+#mobile-background {
+  display: none;
+  @media (max-width: $width-md) {
+    display: block;
+    position: relative;
+  }
+}
+
+#primary-menu-trigger {
+  font-size: 30px;
+  pointer-events: auto;
+}
+
+
+.form-error {
+  color: #D56724;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 30px;
+  display: none;
+}
+
+
+//Canvas Fixes
+//============
+
+#header.full-header #primary-menu > ul {
+  margin-right: 0;
+  border-right: none;
+}
+
+#header.full-header #logo {
+  padding-right: 0;
+  margin-right: 0px;
+  border-right: none;
+}
+
+
+.quoter-custom {
+  text-align: right;
+  margin-right: 150px;
+}
+
+
+//Fix for bouncing icon on bottom of slide
+.animated.infinite.bounce {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+}
+
+.name-emphasis {
+  font-size: 24px;
+}
+
+.mobile-background-card {
+  @media (max-width: $width-md) {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+  }
+  @media (max-width: $width-sm) {
+    background-color: rgba(255, 255, 255, 0);;
+  }
+}
+
+button.btn {
+  text-transform: uppercase;
+}
+
+a[href="http://www.tysonsteele.com/"],
+a[href="http://www.tysonsteele.com/"]:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: initial;
+}
+
+#requestModalContainer .modal-dialog {
+  background-color: #FFF;
+  border-radius: 15px;
+}
+.hours .row {
+  @media (max-width: $width-lg) {
+    max-width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.left-hours-fix {
+  padding-left: 10%;
+  @media (max-width: $width-lg) {
+    padding-left: 30%;
+  }
+  @media (max-width: 480px) {
+    padding-left: 7%;
+  }
+  @media (max-width: $width-sm) {
+
+  }
+}
+
+.swiper_wrapper .swiper-slide:nth-child(1),
+.swiper_wrapper .swiper-slide:nth-child(3) {
+  background-position: 40% center;
+}
+
+.swiper_wrapper .swiper-slide:nth-child(2) {
+  background-position: 65% center;
+}
+
+button[class=close] {
+  font-size: 50px;
+}
+
+//Fix for insurance background on mobile
+.mobile-insurance-fix {
+  display: none;
+  @media (max-width: $width-sm - 1) {
+    display: block;
+    margin-top: -30px;
+  }
+}
+
+#section-insurance {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url('./../assets/kildoo-membership-row.jpg');
+  @media (max-width: $width-sm - 1) {
+    padding-top: 0px;
+    background-image: none;
+    & .padding-vert-2x {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  }
+  & p {
+    line-height: 1.2;
+  }
+
+}
+
+.insurance-card {
+  @media (min-width: $width-sm) and (max-width: $width-md) {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+  }
+}
+
+.mobile-pull-fix {
+  @media (max-width: $width-xs) {
+    float: none !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.slide-padding {
+  padding: 25px 0px;
+}
+
+.modal-title {
+  padding-top: 10px;
+}
+
+#slider {
+  height: 50vw;
+  max-height: 800px;
+}
+
+#bf-revz-widget-1666550305 {
+  max-height: 1000px;
+}
+
+//Special Background for team section
+#section-about,
+#section-services {
+  background-size: contain;
+  background-image: url(/assets/kildoo-bkgd_header.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+}
+
+#section-services .owl-carousel .owl-nav [class*=owl-],
+#section-about .owl-carousel .owl-nav [class*=owl-] {
+  top: 40%;
+
+}
+
+//fix for iPhone modal issue
+input[type='text'],
+input[type='email'],
+input[type='phone'],
+textarea {
+  font-size: 16px;
+}
