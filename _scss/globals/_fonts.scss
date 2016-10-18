@@ -188,15 +188,6 @@ button.btn {
 		padding-right: 20px;
 	}
 	@media screen and (max-width: $width-xs) {
-		.phone-slab & {
-			background-color: rgba(0,0,0,0);
-			border-color: #5F7812;
-			color: #5F7812;
-		}
-		.phone-slab & {
-			background-color: rgba(95, 120, 18, 0.20);
-			color: #5F7812;
-		}
 	}
 }
 
@@ -207,7 +198,7 @@ button.btn.slider-btn {
 }
 
 .btn:hover, .btn:focus, .btn.focus {
-	background-color: #8c3312;
+	background-color: #0b7b8b;
 	text-decoration: none;
 	color: #FFF;
 }

@@ -382,3 +382,22 @@ textarea {
   background-repeat: no-repeat;
   background-position-y: 100%;
 }
+
+.about-quote {
+  border-left: solid #718F11 7px;
+  padding-left: 15px;
+  font-size: 16px;
+  @media screen and (max-width: $width-md) {
+    border-left: none;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-left: 0;
+    border-top: solid #718F11 5px;
+  }
+}
+
+.about-quote-wrapper {
+  padding: 15px;
+}
