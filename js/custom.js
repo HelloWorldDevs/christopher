@@ -80,7 +80,8 @@
       arrows:{enable:true}
     },
     gridwidth:1230,
-    gridheight:720
+    gridheight:520,
+    responsiveLevels:[1200,992,768,480]
   });
 
   // Owl Carousels

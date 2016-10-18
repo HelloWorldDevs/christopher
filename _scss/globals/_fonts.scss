@@ -200,6 +200,12 @@ button.btn {
 	}
 }
 
+button.btn.slider-btn {
+	@media screen and (max-width: $width-sm) {
+		font-size: 35px;
+	}
+}
+
 .btn:hover, .btn:focus, .btn.focus {
 	background-color: #8c3312;
 	text-decoration: none;
