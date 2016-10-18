@@ -7,6 +7,11 @@ $card-three: #0FADC4;
   @media screen and (min-width: $width-md) {
     display: flex;
   }
+  @media screen and (max-width: $width-md) {
+    & .specials-card {
+      margin-bottom: 30px;
+    }
+  }
 }
 
 .specials-card {
@@ -23,6 +28,19 @@ $card-three: #0FADC4;
       position: relative;
       left: -10px;
       top: -20px;
+      @media screen and (max-width: $width-lg) {
+        font-size: 35px;
+        left: -5px;
+      }
+      @media screen and (max-width: $width-md) {
+        font-size: 30px;
+        left: -5px;
+      }
+      @media screen and (max-width: $width-sm) {
+        font-size: 25px;
+        left: -5px;
+        top: -10px;
+      }
     }
   }
 

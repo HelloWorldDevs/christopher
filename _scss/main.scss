@@ -154,6 +154,11 @@ section {
   padding-top: 60px;
 }
 
+
+.padding-top-half {
+  padding-top: 30px;
+}
+
 .center-md {
   @media (max-width: $width-md) {
     text-align: center;
