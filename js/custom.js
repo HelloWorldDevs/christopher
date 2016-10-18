@@ -72,15 +72,16 @@
   HWD.mailForm('#mail-form', '#success_msg' , '7fb35345-752d-4792-9480-cd3db6674a62');
   HWD.scrollOffsetFix('#primary-menu');
 
-
-  // Marquee Slider
-  // ==============
-  new Swiper('.swiper-container', {
-    speed: 600,
-    autoplay: 6000,
-    loop: true
+  $("#rev_slider_420_1").revolution({
+    sliderType:"standard",
+    sliderLayout:"auto",
+    delay:9000,
+    navigation: {
+      arrows:{enable:true}
+    },
+    gridwidth:1230,
+    gridheight:720
   });
-
 
   // Owl Carousels
   // =============
