@@ -356,6 +356,9 @@ button[class=close] {
   background-image: url(/assets/green-mountains.png);
   background-repeat: no-repeat;
   background-position-y: 100%;
+  .decorative-top-border {
+    border-top: solid 5px #718F11;
+  }
 }
 
 #section-specials {
