@@ -101,85 +101,12 @@
       },
       990 : {
         items : 4
-      },
-      1200 : {
-        items : 5
       }
     },
     navText: [
       '<i class="icon-chevron-sign-left"></i>',
       '<i class="icon-chevron-sign-right"></i>'
     ]
-  });
-
-  $('.team-carousel').owlCarousel({
-    autoplay: true,
-    loop: true,
-    nav: true,
-    dots: false,
-    responsive : {
-      0 : {
-        items : 1
-      },
-      550 : {
-        items : 2
-      },
-      768 : {
-        items : 3
-      },
-      990 : {
-        items : 4
-      },
-      1200 : {
-        items : 5
-      }
-    },
-    navText: [
-      '<i class="icon-chevron-sign-left"></i>',
-      '<i class="icon-chevron-sign-right"></i>'
-    ]
-  });
-
-  $('.tour-carousel').owlCarousel({
-    autoplay: true,
-    loop: true,
-    nav: true,
-    dots: false,
-    navText: [
-      '<i class="icon-chevron-sign-left"></i>',
-      '<i class="icon-chevron-sign-right"></i>'
-    ],
-    margin: 30,
-    responsive : {
-      0 : {
-        items : 1
-      },
-      768 : {
-        items : 2
-      }
-    }
-  });
-
-  $('.logo-carousel').owlCarousel({
-    autoplay: true,
-    loop: true,
-    nav: false,
-    dots: false,
-    margin: 30,
-    responsive : {
-      0 : {
-        items : 2
-      },
-      550 : {
-        items : 3
-      },
-      768 : {
-        items : 4
-      },
-      990 : {
-        items : 5
-      }
-    }
   });
 
   $('#google-map5').gMap({

@@ -146,6 +146,10 @@ section {
   line-height: 1.0;
 }
 
+.padding-top {
+  padding-top: 60px;
+}
+
 .center-md {
   @media (max-width: $width-md) {
     text-align: center;
@@ -367,4 +371,15 @@ input[type='email'],
 input[type='phone'],
 textarea {
   font-size: 16px;
+}
+
+#bg-services {
+  background: linear-gradient(#718F11, #F2F2F2);
+}
+
+#bg-services-mtns {
+  background-size: initial;
+  background-image: url(/assets/white-mountains.png);
+  background-repeat: no-repeat;
+  background-position-y: 100%;
 }
