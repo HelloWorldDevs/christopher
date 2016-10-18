@@ -42,12 +42,6 @@
 section {
   background-size: cover;
 }
-#google-map5 {
-  height: 800px;
-  @media (max-width: $width-md) {
-    height: 300px;
-  }
-}
 
 .section-padding {
   padding: 60px 0px;

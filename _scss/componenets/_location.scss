@@ -9,9 +9,18 @@
 }
 
 #google-map5 {
-  height: 700px;
+  height: 490px;
+  @media (max-width: $width-lg) {
+    height: 395px;
+  }
   @media (max-width: $width-md) {
-    height: 300px;
+    height: 285px;
+  }
+  @media (max-width: $width-sm) {
+    height: 395px;
+  }
+  @media (max-width: $width-sm) {
+    height: 220px;
   }
 }
 
