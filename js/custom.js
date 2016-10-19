@@ -80,7 +80,7 @@
       arrows:{enable:true}
     },
     gridwidth:1230,
-    gridheight:520,
+    gridheight:700,
     responsiveLevels:[1200,992,768,480]
   });
 

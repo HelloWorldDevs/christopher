@@ -243,11 +243,11 @@ button.btn {
   text-transform: uppercase;
 }
 
-a[href="http://www.tysonsteele.com/"],
-a[href="http://www.tysonsteele.com/"]:hover {
-  color: #FFF;
-  text-decoration: none;
-}
+//a[href="http://www.tysonsteele.com/"],
+//a[href="http://www.tysonsteele.com/"]:hover {
+//  color: #FFF;
+//  text-decoration: none;
+//}
 
 a:hover {
   color: inherit;
@@ -345,6 +345,7 @@ button[class=close] {
   max-height: 1000px;
 }
 
+#section-location,
 #section-about {
   background-size: initial;
   background-image: url(/assets/green-mountains.png);
@@ -402,4 +403,12 @@ textarea {
 
 .about-quote-wrapper {
   padding: 15px;
+}
+
+#revolution-icon-fix {
+  @media (max-width: $width-md) {
+    font-size: 16px !important;
+  }
+  @media (max-width: $width-md) {
+  }
 }
