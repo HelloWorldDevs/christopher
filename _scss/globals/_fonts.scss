@@ -234,7 +234,6 @@ p {
 	@media screen and (max-width: $width-lg) {
 		font-size: 15px;
 		letter-spacing: 0.7px;
-		padding: 10px 30px !important;
 	}
 	@media screen and (max-width: 1090px) {
 		font-size: 14px;
@@ -242,7 +241,8 @@ p {
 	@media screen and (max-width: 991px) {
 		font-size: 18px;
 	}
-	@media screen and (max-width: $width-sm) {
+	@media screen and (max-width: $width-md) {
+		padding: 10px 30px !important;
 	}
 	@media screen and (max-width: $width-xs) {
 	}
