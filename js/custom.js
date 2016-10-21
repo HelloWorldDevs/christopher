@@ -77,7 +77,7 @@
     sliderLayout:"auto",
     delay:9000,
     navigation: {
-      arrows:{enable:true}
+      arrows:{enable:false}
     },
     gridwidth:1230,
     gridheight:700,

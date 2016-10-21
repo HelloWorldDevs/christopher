@@ -11,9 +11,9 @@
 @import "style.scss";
 @import "dependencies/responsive.scss";
 // Revolution Slider
-@import "dependencies/settings.css";
-@import "dependencies/layers.css";
-@import "dependencies/navigation.css";
+@import "dependencies/settings.scss";
+@import "dependencies/layers.scss";
+@import "dependencies/navigation.scss";
 
 
 //=================================
@@ -251,6 +251,7 @@ button.btn {
 
 a:hover {
   color: inherit;
+  text-decoration: underline;
 }
 
 #requestModalContainer .modal-dialog {
@@ -341,7 +342,7 @@ button[class=close] {
   padding-top: 10px;
 }
 
-#bf-revz-widget-1666550305 {
+#bf-revz-widget-3560153619 {
   max-height: 1000px;
 }
 
